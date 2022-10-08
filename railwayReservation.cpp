@@ -453,7 +453,7 @@ void cancell()
     Detail a;
     reser b;
     canc c;
-    fstream f1, f2, f3;
+    fstream f1, f2, f3 , f4;
     f1.open("t.txt",ios::in|ios::out|ios::binary);
     f2.open("p.txt",ios::in|ios::out|ios::binary);
     f3.open("cn.txt",ios::in|ios::out|ios::binary);
